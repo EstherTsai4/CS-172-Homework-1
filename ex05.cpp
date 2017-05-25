@@ -64,6 +64,7 @@ void ex05()
 	cout << "The sum of the 5 integers is: " << sum << endl;
 
 	//calculate product of integer values in array
+	//PT: Could have made this part of the summation loop above, for efficiency
 	int product = 1;
 	for (int i = 1; i <= 5; i++)
 	{
