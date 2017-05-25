@@ -27,7 +27,7 @@ void ex02()
 	{
 		cout << "x " << x << " is less than y " << y << "." << endl;
 	}
-	else if (x == y)
+	else if (x == y) //PT: could just use else here
 	{
 		cout << "x " << x << " is equal to y " << y << "." << endl;
 	}
